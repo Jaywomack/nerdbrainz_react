@@ -7,7 +7,7 @@ const Home = () => {
       <Header />
       <main className="min-h-screen bg-custom-color-1">
         <section id="portfolio" className="section-title ">
-          <h1 className="text-5xl md:text-6xl lg:text-8xl text-custom-ivory text-center lg:text-start ml-12 py-12 lg:py-24 ">
+          <h1 className="text-5xl md:text-6xl lg:text-8xl text-custom-ivory text-start ml-12 py-12 lg:py-24 ">
             Portfolio
           </h1>
           <div className="flex-row flex-wrap w-100">
@@ -85,10 +85,10 @@ const Home = () => {
             <h2 className="  text-custom-ivory  fw-bold  text-4xl md:text-5xl lg:text-8xl fw-bold transition duration-300 ease-in-out transform hover:translate-x-5">
               HTML
             </h2>
-            <h2 className="text-custom-ivory text-4xl lg:text-8xl fw-bold   text-4xl lg:text-8xl fw-bold transition duration-300 ease-in-out transform hover:-translate-x-5">
+            <h2 className="text-custom-ivory text-4xl lg:text-8xl fw-bold   text-4xl lg:text-8xl fw-bold transition duration-300 ease-in-out transform hover:translate-x-5">
               CSS
             </h2>
-            <h2 className="text-custom-ivory text-4xl lg:text-8xl fw-bold text-4xl lg:text-8xl fw-bold transition duration-300 ease-in-out transform hover:-translate-x-5">
+            <h2 className="text-custom-ivory text-4xl lg:text-8xl fw-bold text-4xl lg:text-8xl fw-bold transition duration-300 ease-in-out transform hover:translate-x-5">
               JAVASCRIPT
             </h2>
           </div>
