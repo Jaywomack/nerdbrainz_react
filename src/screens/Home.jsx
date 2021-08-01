@@ -1,5 +1,7 @@
 import Contact from "../components/Contact";
 import Header from "../components/Header";
+import Testimonials from "../components/Testimonials";
+import Pricing from "../components/Pricing";
 
 const Home = () => {
   return (
@@ -56,6 +58,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        {/* Start Technologies Section */}
         <section
           id="technologies"
           className="flex flex-wrap overflow-hidden ml-12 my-24"
@@ -96,6 +99,14 @@ const Home = () => {
             TECHNOLOGIES
           </div>
         </section>
+        {/* End Technologies Section */}
+        {/* Start Testimonials Section */}
+        <Pricing />
+        {/* End Testimonials Section */}
+
+        {/* Start Testimonials Section */}
+        <Testimonials />
+        {/* End Testimonials Section */}
       </main>
       <Contact />
     </div>
