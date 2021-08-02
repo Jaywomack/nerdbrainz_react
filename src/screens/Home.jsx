@@ -2,6 +2,9 @@ import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
+import site_1 from "../images/site_1.jpeg";
+import site_2 from "../images/site_2.jpeg";
+import site_3 from "../images/site_3.jpeg";
 
 const Home = () => {
   return (
@@ -18,7 +21,7 @@ const Home = () => {
                 className="project-img w-full px-16 "
                 width="auto"
                 height="auto"
-                src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                src={site_1}
                 alt=""
               />
             </div>
@@ -35,7 +38,7 @@ const Home = () => {
                 className="project-img w-full px-16"
                 width="auto"
                 height="auto"
-                src="https://images.unsplash.com/photo-1627373317910-4f753fee6244?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                src={site_2}
                 alt=""
               />
             </div>
@@ -52,7 +55,7 @@ const Home = () => {
                 className="project-img w-full px-16"
                 width="auto"
                 height="auto"
-                src="https://images.unsplash.com/photo-1505659903052-f379347d056f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRyYWlufGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                src={site_3}
                 alt=""
               />
             </div>
@@ -101,7 +104,7 @@ const Home = () => {
         </section>
         {/* End Technologies Section */}
         {/* Start Testimonials Section */}
-        <Pricing id="pricing" />
+        <Pricing />
         {/* End Testimonials Section */}
 
         {/* Start Testimonials Section */}
