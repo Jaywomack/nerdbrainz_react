@@ -101,7 +101,7 @@ const Home = () => {
         </section>
         {/* End Technologies Section */}
         {/* Start Testimonials Section */}
-        <Pricing />
+        <Pricing id="pricing" />
         {/* End Testimonials Section */}
 
         {/* Start Testimonials Section */}

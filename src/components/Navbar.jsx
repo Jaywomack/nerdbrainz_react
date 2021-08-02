@@ -61,6 +61,12 @@ const Navbar = () => {
             </a>
             <a
               className="lg:inline-flex lg:w-auto w-full px-10 py-2 rounded text-gray-400 font-bold items-center justify-center   hover:text-gray-300"
+              href="#pricing"
+            >
+              Pricing
+            </a>
+            <a
+              className="lg:inline-flex lg:w-auto w-full px-10 py-2 rounded text-gray-400 font-bold items-center justify-center   hover:text-gray-300"
               href="#contact"
             >
               Contact
