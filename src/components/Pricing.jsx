@@ -52,7 +52,7 @@ const Pricing = () => {
                 </span>
                 About
               </p>
-              <p className="flex items-center text-black mb-6">
+              <p className="flex items-center text-black">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -68,7 +68,7 @@ const Pricing = () => {
                 </span>
                 Contact
               </p>
-              <p className="flex items-center text-black mb-6">
+              <p className="flex items-center text-black">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
                   <svg
                     fill="none"
