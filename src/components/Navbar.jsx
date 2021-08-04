@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-custom-black-1 p-3 sticky top-0">
+      <nav className="flex items-center flex-wrap bg-custom-black-1 p-3 sticky top-0 z-50">
         <a href="#home" className="inline-flex items-center p-2 mr-4 ">
           <span className="text-2xl text-white font-bold   tracking-wide">
             {"{ Nerd Brainz }"}

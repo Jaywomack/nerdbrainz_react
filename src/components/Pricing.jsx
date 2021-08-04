@@ -14,11 +14,11 @@ const Pricing = () => {
         <div className="flex flex-wrap -m-4">
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden">
-              <h2 className="text-base tracking-widest title-font mb-1 font-medium">
-                Simple Landing Page & Marketing Sites
+              <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
+                Simple Marketing
               </h2>
-              <h1 className="text-5xl text-custom-ivory pb-4 mb-4 border-b border-white leading-none">
-                $1500 +
+              <h1 className="text-5xl text-custom-ivory leading-none flex items-center pb-4 mb-4 border-b border-white">
+                <span>$1500 +</span>
               </h1>
               <p className="flex items-center text-black mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
@@ -34,7 +34,7 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Home
+                Up to five pages
               </p>
               <p className="flex items-center text-black mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
@@ -50,9 +50,9 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                About
+                Fully responsive mobile design
               </p>
-              <p className="flex items-center text-black">
+              <p className="flex items-center text-black mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -66,9 +66,9 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Contact
+                Domain name
               </p>
-              <p className="flex items-center text-black">
+              <p className="flex items-center text-black mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -82,7 +82,7 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Logos & Custom Branding
+                Vexillologist pitchfork
               </p>
               <p className="flex items-center text-black mb-6">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
@@ -98,24 +98,7 @@ const Pricing = () => {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Custom Color Schemes
-              </p>
-              <button className="flex items-center mt-auto text-black bg-white border-0 py-2 px-4 w-full focus:outline-none hover:bg-custom-ivory rounded">
-                Button
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-auto"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </button>
-              <p className="text-xs text-custom-ivory mt-3">
-                Literally you probably haven't heard of them jean shorts.
+                Mixtape chillwave tumeric
               </p>
             </div>
           </div>
@@ -125,10 +108,10 @@ const Pricing = () => {
                 POPULAR
               </span>
               <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
-                PRO
+                Small Business E-commerce
               </h2>
               <h1 className="text-5xl text-custom-ivory leading-none flex items-center pb-4 mb-4 border-b border-white">
-                <span>$2500 +</span>
+                <span>$5000 +</span>
               </h1>
               <p className="flex items-center text-black mb-2">
                 <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
@@ -194,136 +177,12 @@ const Pricing = () => {
                 </span>
                 Mixtape chillwave tumeric
               </p>
-              <button className="flex items-center mt-auto text-black bg-red-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-600 rounded">
-                Button
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-auto"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </button>
-              <p className="text-xs text-custom-ivory mt-3">
-                Literally you probably haven't heard of them jean shorts.
-              </p>
             </div>
           </div>
           <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden">
               <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
-                BUSINESS
-              </h2>
-              <h1 className="text-5xl text-custom-ivory leading-none flex items-center pb-4 mb-4 border-b border-white">
-                <span>$5000 +</span>
-              </h1>
-              <p className="flex items-center text-black mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Vexillologist pitchfork
-              </p>
-              <p className="flex items-center text-black mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Tumeric plaid portland
-              </p>
-              <p className="flex items-center text-black mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Hexagon neutra unicorn
-              </p>
-              <p className="flex items-center text-black mb-2">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Vexillologist pitchfork
-              </p>
-              <p className="flex items-center text-black mb-6">
-                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2.5"
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Mixtape chillwave tumeric
-              </p>
-              <button className="flex items-center mt-auto text-black bg-white border-0 py-2 px-4 w-full focus:outline-none hover:bg-custom-ivory rounded">
-                Button
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-auto"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </button>
-              <p className="text-xs text-custom-ivory mt-3">
-                Literally you probably haven't heard of them jean shorts.
-              </p>
-            </div>
-          </div>
-          <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
-            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden">
-              <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
-                E-Commerce
+                Mid-Size Business E-Commerce
               </h2>
               <h1 className="text-5xl text-custom-ivory leading-none flex items-center pb-4 mb-4 border-b border-white">
                 <span>$10,000 +</span>
@@ -408,22 +267,95 @@ const Pricing = () => {
                 </span>
                 Mixtape chillwave tumeric
               </p>
-              <button className="flex items-center mt-auto text-black bg-white border-0 py-2 px-4 w-full focus:outline-none hover:bg-custom-ivory rounded">
-                Button
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  className="w-4 h-4 ml-auto"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </button>
-              <p className="text-xs text-custom-ivory mt-3">
-                Literally you probably haven't heard of them jean shorts.
+            </div>
+          </div>
+          <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div className="h-full p-6 rounded-lg border-2 border-white flex flex-col relative overflow-hidden">
+              <h2 className="text-sm tracking-widest title-font mb-1 font-medium">
+                Enterprise Level E-Commerce
+              </h2>
+              <h1 className="text-5xl text-custom-ivory leading-none flex items-center pb-4 mb-4 border-b border-white">
+                <span>$20,000 +</span>
+              </h1>
+              <p className="flex items-center text-black mb-2">
+                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    className="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
+              </p>
+              <p className="flex items-center text-black mb-2">
+                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    className="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Tumeric plaid portland
+              </p>
+              <p className="flex items-center text-black mb-2">
+                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    className="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Hexagon neutra unicorn
+              </p>
+              <p className="flex items-center text-black mb-2">
+                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    className="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
+              </p>
+              <p className="flex items-center text-black mb-6">
+                <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-white text-black rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2.5"
+                    className="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Mixtape chillwave tumeric
               </p>
             </div>
           </div>
